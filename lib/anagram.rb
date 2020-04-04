@@ -9,7 +9,7 @@ class Anagram
     no_match = []
     words.each do |e|
     array.split(//)
-      
+
     if array.each_char do {|char|  @word == char}
       word
     else
