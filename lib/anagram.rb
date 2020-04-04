@@ -5,7 +5,9 @@ class Anagram
     @word = word
   end
 
-  def match(possible_matches)
+  def match(array)
+    array.split(" ")
+    array.each do {|word|  @word == word}
 
   end
 end
