@@ -6,16 +6,6 @@ class Anagram
   end
 
   def match(array)
-    temp = []
-    array.each do |e|
-    temp = e.split(//)
-     array.each do |z|
-    if z.match(/#{temp}/)
-      temp
-    else
-      no_match
-    end
-    end
   end
 end
 
