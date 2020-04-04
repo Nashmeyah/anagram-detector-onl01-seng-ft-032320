@@ -8,7 +8,7 @@ class Anagram
   def match(array)
     no_match = []
     array.split(" ")
-    
+
     if array.each do {|word|  @word == word}
       word
     else
