@@ -15,6 +15,7 @@ class Anagram
     else
       no_match
     end
+    end
   end
 end
 
