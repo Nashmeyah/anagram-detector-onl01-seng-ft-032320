@@ -7,9 +7,9 @@ class Anagram
 
   def match(array)
     temp = []
-    words.each do |e|
+    array.each do |e|
     temp = e.split(//)
-     words.each do |z|
+     array.each do |z|
     if z.match(/#{temp}/)
       temp
     else
