@@ -6,9 +6,9 @@ class Anagram
   end
 
   def match(array)
-    no_match = []
+    temp = []
     words.each do |e|
-    array.split(//)
+    temp = e.split(//)
 
     if array.each_char do {|char|  @word == char}
       word
