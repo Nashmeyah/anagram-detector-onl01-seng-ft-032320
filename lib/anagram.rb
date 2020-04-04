@@ -1,11 +1,14 @@
 class Anagram
-  attr_accessor :anagram #a similar word consisting of the same letters
+  attr_accessor :word #a similar word consisting of the same letters
 
   def initialize(word)
     @word = word
   end
 
-  def match(array)
+  def match(words_arr)
+    words_arr.select do |word|
+      word.split("").sort == @word.split("").sort
+    end
   end
 end
 
