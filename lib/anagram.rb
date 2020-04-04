@@ -9,9 +9,9 @@ class Anagram
     temp = []
     words.each do |e|
     temp = e.split(//)
-
-    if array.each_char do {|char|  @word == char}
-      word
+     words.each do |z|
+    if z.match(/#{temp}/)
+      temp
     else
       no_match
     end
